@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reservations</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="fullnav">
+  <nav class="navbar">
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <a href="about.html">About</a>
+   <a href="contact.html">Reservation</a>
+   <a href="location.html">Location</a>
+   <a href="questions.html"> FAQ </a>
+   <a href="menu.html"> Menu </a>
+  </nav>
+
+  </header>
+
+      <div class="welcome">
+          <h1>Welcome to Grill & Chill</h1>
+      </div>
+
+<main>
+
+    <div id="contacth2">
+    <h2> Make a Reservation</h2>
+    </div>
+
+<form name="Reservation" action="mailto:1225014@essextech.org?subject=Reservation" method="post" enctype="text/plain" target="_blank">
+
+    <div class="textform">
+
+Name: <input type="text" name="Name" size="25" required placeholder="First Last">
+
+    <br>
+        <br>
+
+
+Email: <input type="email" name="Email" size="25" required placeholder="Email@mail.com">
+
+        <br>
+        <br>
+
+
+Phone: <input type="tel" name="Number" size="15" required placeholder="123-456-7890">
+
+        <br>
+        <br>
+
+Number of Guest: <input type="number" name="Guest" min="1" max="12" value="2" step="1" required>
+
+        <br>
+        <br>
+
+
+
+Reservation (Date and Time):
+  <input type="datetime-local" id="reservation_date" name="reservation_date">
+    <div id="minitext">
+        <p>*A $5 fee will be charged for cancellations under 24 hours </p>
+        </div>
+    </div>
+
+<input class="button" type="submit" value="Complete">
+<input class="rbutton" type="reset" value="Restart">
+
+</form>
+
+
+</main>
+<br>
+<br>
+<hr>
+<footer>
+<p>&copy; 2021 Chill and Grill</p>
+<address>498-544 W Market St, Newark, NJ 07107</address>
+<a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/ig_logo.png" alt="instagram"></a>
+<a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/fb_logo.png" alt="facebook"></a>
+<a href="https://www.youtube.com/" target="_blank"><img class="social-logo" src="images/yt_logo.png" alt="youtube"></a>
+<aside class="delivery">
+<a href="online_order.html"> <img src="images/menu_delivery.png" id="delivery_burger" alt="online order"> </a>
+<h3> Order Online </h3>
+</aside>
+</footer>
+</body>
+</html>

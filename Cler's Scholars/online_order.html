@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Order Online</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="fullnav">
+  <nav class="navbar">
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <a href="about.html">About</a>
+   <a href="contact.html">Reservation</a>
+   <a href="location.html">Location</a>
+   <a href="questions.html"> FAQ </a>
+   <a href="menu.html"> Menu </a>
+  </nav>
+
+  </header>
+
+      <div class="welcome">
+          <h1>Welcome to Grill & Chill</h1>
+      </div>
+
+<main>
+
+    <div id="orderonh2">
+    <h2> Online Order</h2>
+    </div>
+
+<form name="Online Order" action="mailto:1225014@essextech.org?subject=Reservation" method="post" enctype="text/plain" target="_blank">
+
+    <div class="textform">
+
+Name: <input type="text" name="Name" size="25" required placeholder="First Last">
+
+    <br>
+        <br>
+
+
+Email: <input type="email" name="Email" size="25" required placeholder="Email@mail.com">
+
+        <br>
+        <br>
+
+
+Phone: <input type="tel" name="Number" size="15" required placeholder="123-456-7890">
+
+        <br>
+        <br>
+        
+Address: <input type="text" name="Address" size="25" required placeholder="123 Alphabet Street, 12345">
+
+    <br>
+        <br>
+Pick-up or Delivery
+<input type="radio" id="Pickup" name="order_method" value="Pick-up">
+<label for="Pickup">Pick-up</label>
+<input type="radio" id="Delivery" name="order_method" value="Delivery">
+<label for="Delivery">Delivery</label>
+
+        <br>
+        <br>       
+        
+Appetizers:
+<br>
+  <input type="checkbox" id="Caesar_salad" name="Appetizers" value="Caesar_salad">
+  <label for="Caesar_salad"> Caesar Salad</label>
+  <input type="checkbox" id="Grilled_chicken_salad" name="Appetizers" value="Grilled_chicken_salad">
+  <label for="Grilled_chicken_salad"> Grilled Chicken Salad</label>
+  <input type="checkbox" id="BBQ_wings" name="Appetizers" value="BBQ_wings">
+  <label for="BBQ_wings"> BBQ Wings</label><br>
+  <input type="checkbox" id="Mozzarela_sticks" name="Appetizers" value="Mozzarela_sticks">
+  <label for="Mozzarela_sticks"> Mozzarela Sticks</label>
+  <input type="checkbox" id="Chicken_tenders" name="Appetizers" value="Chicken_tenders">
+  <label for="Chicken_tenders"> Chicken Tenders</label>
+        
+        <br>
+        <br> 
+Meats:
+        <br>
+  <input type="checkbox" id="T-Bone_steak" name="Meats" value="T-Bone_steak">
+  <label for="T-Bone_steak"> T-Bone Steak</label>
+  <input type="checkbox" id="BBQ_pork_ribs" name="Meats" value="BBQ_pork_ribs">
+  <label for="BBQ_pork_ribs"> BBQ Pork Ribs</label>
+  <input type="checkbox" id="Sirloin_steak" name="Meats" value="Sirloin_steak">
+  <label for="Sirloin_steak"> Sirloin Steak</label><br>
+  <input type="checkbox" id="Beef_ribs" name="Meats" value="Beef_ribs">
+  <label for="Beef_ribs"> Beef Ribs</label>
+  <input type="checkbox" id="Grilled_sausages" name="Meats" value="Grilled_sausages">
+  <label for="Grilled_sausages"> Grilled Sausages</label>
+        
+        <br>
+        <br> 
+Chicken:
+        <br>
+  <input type="checkbox" id="vehicle1" name="Chicken" value="Bike">
+  <label for="vehicle1"> BBQ Chicken</label>
+  <input type="checkbox" id="vehicle2" name="Chicken" value="Car">
+  <label for="vehicle2"> Grilled Chicken Breast</label>
+
+        <br>
+        <br> 
+Sides:
+        <br>
+  <input type="checkbox" id="Mac_cheese" name="Sides" value="Mac_cheese">
+  <label for="Mac_cheese"> Mac & Cheese</label>
+  <input type="checkbox" id="Plantains" name="Sides" value="Plantains">
+  <label for="Plantains"> Plantains</label>
+  <input type="checkbox" id="Mashed_potatoes" name="Sides" value="Mashed_potatoes">
+  <label for="Mashed_potatoes"> Mashed Potatoes</label><br>
+  <input type="checkbox" id="Rice" name="Sides" value="Rice">
+  <label for="Rice"> Rice</label>
+  <input type="checkbox" id="French_fries" name="Sides" value="French_fries">
+  <label for="French_fries"> French Fries</label>
+        
+        <br>
+        <br>
+Indicate Any Items You Would Like Duplicates Of
+<textarea id="amount" name="amount" rows="4" cols="50">
+  </textarea>
+    
+    </div>
+    <br>
+<input class="button" type="submit" value="Complete">
+<input class="rbutton" type="reset" value="Restart">
+
+</form>
+
+
+</main>
+<br>
+<br>
+<hr>
+<footer>
+<p>&copy; 2021 Chill and Grill</p>
+<address>498-544 W Market St, Newark, NJ 07107</address>
+<a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/ig_logo.png" alt="instagram"></a>
+<a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/fb_logo.png" alt="facebook"></a>
+<a href="https://www.youtube.com/" target="_blank"><img class="social-logo" src="images/yt_logo.png" alt="youtube"></a>
+<aside class="delivery">
+<a href="online_order.html"> <img src="images/menu_delivery.png" id="delivery_burger" alt="online order"> </a>
+<h3> Order Online </h3>
+</aside>
+</footer>
+</body>
+</html>

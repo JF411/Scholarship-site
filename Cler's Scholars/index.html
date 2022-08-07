@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+  <header class="fullnav">
+  <nav class="navbar">
+       <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+       <a href="about.html">About</a>
+      <a href="contact.html">Reservation</a>
+      <a href="location.html">Location</a>
+      <a href="questions.html"> FAQ </a>
+      <a href="menu.html"> Menu </a>
+  </nav>
+  </header>
+      <div class="welcome">
+          <h1>Welcome to Grill & Chill</h1>
+      </div>
+<main>
+  <div id="indexh2">
+    <h2>Welcome To Our Page!</h2>
+  </div>
+        <div class="contentindex">
+        <p>We plan on being a friendly spot for everyone to come an enjoy healthy and tasty meals. Our foods are greater quality than the rest of our competition for the same price.</p>
+        <br>
+        <p> </p>
+    </div>
+
+<div class="centercontent">
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="photos fade">
+    <img src="images/meat_tray_re.jpg" alt="meat tray" style="width:100%">
+  </div>
+
+  <div class="photos fade">
+    <img src="images/meat_grill.jpg" alt="grilled meat" style="width:100%">
+  </div>
+
+  <div class="photos fade">
+    <img src="images/foodtray_re.jpg" alt="food tray" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("photos");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) { // i++ increases slide by + 1
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}//code partially from W3Schools website
+</script>
+
+</div>
+</main>
+<hr>
+<footer>
+<p>&copy; 2021 Chill and Grill</p>
+<address>498-544 W Market St, Newark, NJ 07107</address>
+<a href="https://www.instagram.com/" target="_blank"><img class="social-logo" src="images/ig_logo.png" alt="instagram"></a>
+<a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/fb_logo.png" alt="facebook"></a>
+<a href="https://www.youtube.com/" target="_blank"><img class="social-logo" src="images/yt_logo.png" alt="youtube"></a>
+<aside class="delivery">
+<a href="online_order.html"> <img src="images/menu_delivery.png" id="delivery_burger" alt="online order"> </a>
+<h3> Order Online </h3>
+</aside>
+</footer>
+</body>
+</html>

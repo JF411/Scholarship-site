@@ -1,0 +1,341 @@
+body
+{
+background-image: url('../images/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* For All Pages */
+.welcome h1
+{
+text-align:center;
+font-family: 'Irish Grover', cursive;
+font-size: 70px;
+    color: #ECBA19;
+    margin-top: 15px;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 12px #fff,
+      0 0 40px #ECBA19,
+      0 0 40px #ECBA19,
+      0 0 40px #ECBA19;
+}
+
+.navbar
+{
+overflow: hidden;
+background-color: #CA350E;
+top: 0px;
+height: 70px;
+z-index: 2;
+width: 100%;
+}
+
+.navbar > a
+{
+ float:left;
+ text-align: center;
+ text-decoration: none;
+    padding: 20px 25px;
+    font-size: 23px;
+color:#ECBA19;
+font-family: 'IBM Plex Sans KR', sans-serif;
+font-weight: bold;
+}
+
+.logo{
+    float: left;
+    position: relative;
+    height:100px;
+    width:130px;
+    margin-top: -30px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+text-align: center;
+color: gray;
+}
+
+.social-logo{
+margin-top: 8px;
+}
+
+#delivery_burger{
+height: 120px;
+width: 130px;
+}
+
+.delivery{
+margin-left: 360px;
+margin-top: -120px;
+}
+
+.delivery h3{
+margin-top: -20px;
+color: #fff;
+}
+
+/* End of CSS for all Pages */
+
+
+/* Home Page*/
+
+.contentindex p
+{
+font-size: 24px;
+font-family: 'Acme', sans-serif;
+color: #fff;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.centercontent{
+  display:flex;
+  justify-content: center;
+}
+
+/* SlideShow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+   max-height: 500px;
+  position: relative;
+  margin-left: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a red background */
+.prev:hover, .next:hover {
+  background-color: #C61414;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.2s;
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+.sidebar
+{
+margin-left: 30px;
+height: 375px;
+width: 500px;
+border: 2px solid white;
+color: #fff;
+background-color: #C54E2F;
+}
+
+.sidebar h1{
+text-align: center;
+font-size: 35px;
+}
+
+.sidebar p{
+margin-left: 10px;
+}
+
+/* End of Home Page*/
+
+/* Reservation Page*/
+form
+{
+font-size: 19px;
+color: #fff;
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+width: 50%;
+margin: auto;
+border: 6px solid black;
+border-radius: 15px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.textform
+{
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.button
+{
+padding: 5px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.rbutton{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#minitext
+{
+font-size:10px;
+}
+
+/* End of Reservation Page */
+
+#contacth2, #about, #asked, #indexh2, #menuh2, #orderonh2
+{
+text-align: center;
+font-size: 30px;
+color: #fff;
+font-family: 'Mochiy Pop One', sans-serif;
+margin-left: 10px;
+margin-right: 20px;
+}
+
+.aboutp p
+{
+color: #fff;
+font-family: 'Acme', sans-serif;
+font-size: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.video{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+/* Location page*/
+#restpara
+{
+font-size: 30px;
+color: #fff;
+font-family: 'Acme', sans-serif;
+text-align: center;
+display: block;
+margin:auto;
+}
+
+.maps
+{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+/* End of location Page*/
+
+/* Questions Pages*/
+
+
+details > summary{
+  font-size:30px;
+  color: #fff;
+  font-family: 'Quantico', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+details > p{
+  color: #fff;
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contactus p
+{
+ font-size: 15px;
+margin-left: 20px;
+margin-right: 20px;
+color: #fff;
+font-family: 'Acme', sans-serif;
+}
+/* End of Questions Pages*/
+
+/* Menu Page*/
+.shortmenu h4
+{
+color:#fff;
+font-size: 26px;
+margin-left: 15px;
+margin-right: 20px;
+}
+
+.shortmenu p
+{
+color: #fff;
+font-size: 20px;
+margin-left: 15px;
+margin-right: 20px;
+font-family: 'Acme', sans-serif;
+}
+
+#openmenu
+{
+font-size: 30px;
+color: #fff;
+text-align: center;
+margin-left: 10px;
+margin-right: 20px;
+}
+
+p.price
+{
+margin-top: -32px;
+word-spacing: 3px;
+}
+
+#menu-link, #menu-download{
+text-decoration: none;
+color: #5caee7;
+}
+
+#menu-link:hover, #menu-download:hover{
+  text-shadow:
+    0 0 10px #fff,
+    0 0 12px #fff,
+    0 0 16px #fff,
+    0 0 90px #FF0000,
+    0 0 90px #FF0000,
+    0 0 100px #FF0000;
+}
